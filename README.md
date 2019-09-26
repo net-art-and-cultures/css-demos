@@ -19,6 +19,8 @@ u can look through these notes && examples && copy+paste any bits of code that u
 
 there's a bunch of ways to center things.
 
+there are lots of ways to specify colors.
+
 how to change CSS when u :hover && CSS Transitions.
 
 Typography + Custom Fonts
