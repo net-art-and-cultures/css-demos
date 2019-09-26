@@ -9,9 +9,11 @@ for a general introduction to what CSS is, how u include it in an HTML page && w
 
 u can follow the examples below in order (it more or less goes from basic to less-basic) or u can jump around to specific topics u want to learn more about. clicking the links will take u to another markdown page (a `.md` file) w/documentation on that particular subject (these are also found in the "notes" directory of this repo) && those pages will link to different HTML pages w/the CSS examples in them (these are also found in the "demos" directory of this repo).
 
-...mention inspector tool...
+![web inspector](images/web-inspector.gif)
 
-u can look through these notes && examples && copy+paste any bits of code that u want to reuse/remix, but u could also "clone" this repo so that u can have a local copy on ur computer && experiment w/these examples that way. keep in mind i own this repo (not u) so if u make any changes && try to "push" those back up to this repo, u won't be able to b/c u're not authorized. that said, u can "fork" this repo to make ur own copy on ur GitHub account. if u clone ur forked version of the repo u will be able to push any changes u make back up to ur forked copy. then if u create any new examples u want to share back u can submit a "pull request" so that ur changes can be included in this original repo :)
+in addition to reading the notes associated with each example, i highly recommend that u also right-mouse click (or CTRL+click or two-finger click w/ur track-pad) on the different elements on the example pages to inspect them w/the Web Inspector i showed u in class. this way u can experiment w/them by changing their CSS values or adding some properties of ur own. playing w/these examples in the Web Inspector is a great way to better understand this stuff. (*FYI, u can switch ur web developer tools from light theme to dark theme in the settings, which u can get to by clicking the gear icon, sometimes hidden behind the 3 dots icon, on the top-left corner of the dev tools*)
+
+u can look through these notes && examples, inspect them && copy+paste any bits of code that u want to reuse/remix, but u could also "clone" this repo so that u can have a local copy on ur computer && experiment w/these examples that way. keep in mind i own this repo (not u) so if u make any changes && try to "push" those back up to this repo, u won't be able to b/c u're not authorized. that said, u can "fork" this repo to make ur own copy on ur GitHub account. if u clone ur forked version of the repo u will be able to push any changes u make back up to ur forked copy. then if u create any new examples u want to share back u can submit a "pull request" so that ur changes can be included in this original repo :)
 
 ## the basics
 
