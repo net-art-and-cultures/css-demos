@@ -1,5 +1,7 @@
 # the Box Model
 
+![the box model](../images/box-model.gif)
+
 every element in an HTML page is a box, there’s essentially two kinds of boxes depending on whether the element is an inline element or a block element. every element is one of those by default: `<span> <a> <img>` are all inline elements `<div> <h1> <p>` are all block elements. but these defaults (like all defaults) can be overridden via CSS, in this case w/the `display` property, for ex: `img { display: block }`. the basic difference between the two is that block elements have default widths of 100% (so they stretch from the far left to the far right of their parent element) whereas inline elements are only ever as wide as their content. additionally, block elements always force a line-break (so they appear one on top of the other like a column), whereas inline elements line up next to each other (like a row).
 
 ### [ex 1: block vs inline](https://net-art-and-cultures.github.io/css-demos/demos/the-box-model-ex1.html)
