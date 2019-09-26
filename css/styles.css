@@ -1,0 +1,50 @@
+/*
+  Hello!
+  this is the CSS page (aka stylesheet) for the main home page (index.html)
+  of the "github pages" for this repo. it's pretty simple, but also a good example
+  of what some basic styling for a simple page might look like.
+*/
+
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   color: #24292e;
+}
+
+* { box-sizing: border-box; }
+
+section {
+  max-width: 980px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 { font-size: 2em; }
+
+h1, h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a { color: #0366d6; }
+
+#css3-logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#css3-logo > img { max-width: 140px; }
