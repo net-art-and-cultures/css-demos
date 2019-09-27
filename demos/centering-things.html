@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Demos | centering things</title>
+    <meta name="description" content="A collection of CSS demos for SAIC's Net Art && Cultures class">
+    <meta name="author" content="Nick Briz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png"  href="../favicon.png">
+
+    <style>
+
+        div {
+          background-color: #00ffff;
+          margin: 20px;
+        }
+
+        .center-text {
+          text-align: center;
+        }
+
+        .center-box {
+          max-width: 400px;
+          margin: 0 auto;
+        }
+
+        .flex-box {
+          display: flex;
+          justify-content: center; /* this only works with display: flex; */
+          background-color: #ffff00;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div>this div has no sort of centering</div>
+
+    <div class="center-text">this div has text-align set to center</div>
+
+    <div class="center-box">this div has a max-width of 400px, when combined with a right/left margin of "auto" it will automatically be centered</div>
+
+    <div class="flex-box">
+      <div>this div is inside another yellow div with a "flex-box" display</div>
+    </div>
+
+  </body>
+</html>

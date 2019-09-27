@@ -17,17 +17,19 @@ u can look through these notes && examples, inspect them && copy+paste any bits 
 
 ## the basics
 
+[the "Cascade" in Cascading Style Sheets](notes/the-cascade.md)
+
+[different units of measurement.](notes/css-units.md)
+
+[there are lots of ways to specify colors.](notes/css-colors.md)
+
 [HTML elements are all boxes.](notes/the-box-model.md)
 
-there's a bunch of ways to center things.
+[there's a bunch of ways to center things.](notes/centering-things.md)
 
-there are lots of ways to specify colors.
+how to change CSS when u hover && CSS Transitions.
 
-how to change CSS when u :hover && CSS Transitions.
-
-Typography + Custom Fonts
-
-the "Cascade" in Cascading Style Sheets
+[Typography + Custom Fonts](notes/typography.md)
 
 ## layout
 
@@ -37,7 +39,7 @@ the transform property.
 
 old-school approaches to layout (for context).
 
-modern approaches to layout: Flex Box && CSS Grids
+modern approaches to layout: Flexbox && CSS Grids
 
 
 ## CSS animations
@@ -46,4 +48,4 @@ modern approaches to layout: Flex Box && CSS Grids
 
 ## epilogue
 
-vendor (browser) prefixes && future CSS
+[vendor (browser) prefixes && future CSS](notes/vendor-prefixes.md)
