@@ -27,24 +27,27 @@ u can look through these notes && examples, inspect them && copy+paste any bits 
 
 [there's a bunch of ways to center things.](notes/centering-things.md)
 
-how to change CSS when u hover && CSS Transitions.
+[how to change CSS when u hover && CSS Transitions.](notes/hover-transitions.md)
 
 [Typography + Custom Fonts](notes/typography.md)
 
 ## layout
 
-the position property.
+[the position property.](notes/position.md)
 
-the transform property.
+[the transform property.](notes/transform.md)
 
-old-school approaches to layout (for context).
+[old-school approaches to grid layout](notes/layout-old.md) (for context).
 
-modern approaches to layout: Flexbox && CSS Grids
+[modern approaches to grid layout: Flexbox && CSS Grids](notes/layout-modern.md)
 
+## Responsive Web Design...
 
-## CSS animations
+[...also known as "mobile first"](notes/media-queries.md)
 
+## CSS animations...
 
+[...in a bit more depth than we covered in class](notes/css-animations.md)
 
 ## epilogue
 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Demos | hover + transitions</title>
+    <meta name="description" content="A collection of CSS demos for SAIC's Net Art && Cultures class">
+    <meta name="author" content="Nick Briz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png"  href="../favicon.png">
+
+    <style>
+
+      * {
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      h1 {
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+        /* changing cursor to pointer so it feels like u're supposed to hover over it */
+        cursor: pointer;
+        /* here are the transition settions, which will be triggered when the color, font-size */
+        /* values change on hover due to the pseudo-class below */
+        transition-property: color, font-size;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+      }
+
+      h1:hover {
+        color: #ff00ff;
+        font-size: 30px;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      button {
+        transform: rotate(0deg);
+        background-color: #00ffff;
+        border-radius: 10px;
+        padding: 50px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+      }
+
+      button:active {
+        transform: rotate(180deg);
+        background-color: #ffff00;
+        border-radius: 50%;
+      }
+
+      input {
+        padding: 10px;
+        transition-property: padding;
+        transition-delay: 1s;
+        transition-duration: 0.5s;
+      }
+
+      input:focus {
+        padding: 40px;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>HOVER OVER ME!</h1>
+
+    <div>
+
+      <button> click + hold me down </button>
+
+      <input type="text" placeholder="click me && wait a second">
+
+    </div>
+
+  </body>
+</html>

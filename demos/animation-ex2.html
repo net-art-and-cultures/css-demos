@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Demos | Animation </title>
+    <meta name="description" content="A collection of CSS demos for SAIC's Net Art && Cultures class">
+    <meta name="author" content="Nick Briz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png"  href="../favicon.png">
+
+    <style>
+
+      body {
+        /* the body comes w/a default margin on it */
+        /* let's remove that so that it's child (the "section" below) */
+        /* extends to the edges for the page */
+        margin: 0px;
+      }
+
+      section {
+        /* this is a nice way to center something on a page */
+        /* both vertically && horizontally, for more on this checkout */
+        /* the notes on flexbox in the modern layout section */
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* this CSS gradient was created with an onlin generator */
+        /* https://cssgradient.io/ */
+        background: radial-gradient(circle, rgba(255,113,127,1) 0%, rgba(225,90,107,1) 100%);
+      }
+
+      .emoji-head {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /* this CSS gradient was created with an onlin generator */
+        /* https://cssgradient.io/ */
+        background: radial-gradient(circle, rgba(254, 239, 0, 1) 0%, rgba(254, 166, 0, 1) 100%);
+        cursor: pointer;
+        transition: transform 3s;
+      }
+
+      .emoji-head:hover {
+        transform: rotate(360deg);
+      }
+
+      .eyes {
+        width: 100px;
+        height: 10px;
+        display: flex;
+        justify-content: space-around;
+        transform: translate(0px, 31px);
+      }
+
+      .eye {
+        width: 10px;
+        height: 10px;
+        background-color: #2c302d;
+        border-radius: 50%;
+        animation-name: blink;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes blink {
+        0% { height: 0px; }
+        5% { height: 10px; }
+        95% { height: 10px; }
+        100% { height: 0px; }
+      }
+
+      .mouth {
+        width: 70px;
+        height: 50px;
+        border-radius: 50%;
+        transform: translate(15px, 9px);
+        /* the mouth has no background-color, so the div is essentially invisible */
+        /* but we can still give it a shadow using the "box-shadow" property */
+        /* this gives the illusion of a "smile" play w/it in the web inspector */
+        box-shadow: 0 10px 0 0 #2c302d;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <section>
+
+      <div class="emoji-head">
+        <div class="eyes">
+          <div class="eye"></div>
+          <div class="eye"></div>
+        </div>
+        <div class="mouth"></div>
+      </div>
+
+    </section>
+
+  </body>
+</html>
