@@ -18,7 +18,7 @@ when u want to force precedence on something, u can add override both of the pre
 
 inspect these elements with ur Web Inspector && edit the CSS to see how it effects the elements. for example, try removing `!important` && see what happens.
 
-### [ex 2: more than one class](https://net-art-and-cultures.github.io/css-demos/demos/the-cascade-ex1.html)
+### [ex 2: more than one class](https://net-art-and-cultures.github.io/css-demos/demos/the-cascade-ex2.html)
 
 in class (&& in [the CSS intro notes](https://github.com/net-art-and-cultures/syllabus-and-notes/tree/master/notes/css)) we discussed the different ways to include CSS on the page including inline-style using the HTML `style` attribute. so what happens when u have both a style attribute && a class attribute w/conflicting rules? like:
 
